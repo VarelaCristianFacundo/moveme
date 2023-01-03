@@ -8,7 +8,7 @@ function Contact(props) {
     return (
         <div>
             <Navbar/>
-            <HeroImage heading='CONTACT.' text='Contact ONELIFE Crossfit'/>
+            <HeroImage heading='CONTACTAME' text='Enviame tu consulta'/>
             <Form/>
             <Footer/>
             

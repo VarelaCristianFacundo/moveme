@@ -57,3 +57,10 @@
         font-size:2rem;
     }
 }
+
+@media screen and (max-width:500px) {
+    .logo {
+        width: 20%;
+        height: auto;
+    }
+}

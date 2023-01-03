@@ -19,7 +19,7 @@ window.addEventListener('scroll',changeColor);
 
     return (
         <div className={color ? 'header header-bg' : 'header'}>
-       <Link to='/' ><img src={logo} alt="logo" width={'100%'} height={40} /></Link>
+       <Link to='/' ><img src={logo} className='logo' alt="logo" width='10%' height='auto' /></Link>
        <ul className={click ? 'nav-menu active' : 'nav-menu'}>
         <li>
             <Link to="/">Inicio</Link>

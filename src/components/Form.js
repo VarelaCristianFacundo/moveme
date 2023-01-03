@@ -5,15 +5,15 @@ function Form(props) {
     return (
         <div className='form'>
             <form>
-                <label>Your Name</label>
+                <label>Nombre</label>
                 <input type="text"></input>
                 <label>Email</label>
                 <input type="email"></input>
-                <label>Subject</label>
+                <label>Asunto</label>
                 <input type="text"></input>
-                <label>Details</label>
-                <textarea rows="6" placeholder='Type a short message here'/>
-                <button className="btn">Submit</button>
+                <label>Consulta</label>
+                <textarea rows="6" placeholder='Escribime tu consulta'/>
+                <button className="btn">Enviar</button>
             </form>
             
         </div>

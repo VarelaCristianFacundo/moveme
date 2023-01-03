@@ -9,7 +9,7 @@
    margin:auto;
    display:grid;
    gap:40px;
-   grid-template-columns: repeat(3,1fr);
+   grid-template-columns: repeat(4,1fr);
 
 }
 .card-container .card{
@@ -37,7 +37,7 @@
 }
 
 .card .btc{
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: 600;
     padding:1rem;
 }

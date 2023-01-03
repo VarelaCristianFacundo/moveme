@@ -8,7 +8,7 @@ function Pricing(props) {
     return (
         <div>
             <Navbar/>
-            <HeroImage heading='PRICING' text='Choose your training'/>
+            <HeroImage heading='PRECIOS' text='Elige tu entrenamiento'/>
             <PricingCards/>
             <Footer/>
             

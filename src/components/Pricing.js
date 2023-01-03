@@ -7,36 +7,51 @@ function Pricing(props) {
         <div className='pricing'>
             <div className="card-container">
                 <div className="card">
-                    <h3>-Basic-</h3>
+                    <h3>6 Meses de entrenamiento Presencial</h3>
                     <span className="bar"></span>
-                    <p className='btc'>1 BTC</p>
-                    <p>- 3 Days -</p>
-                    <p>- Views -</p>
-                    <p>- Featured -</p>
-                    <p>- High Intensity Training -</p>
-                    <Link to='/contact' className='btn'>Book</Link>
+                    <p className='btc'>$30.000</p>
+                    <p>- Corrección Postural -</p>
+                    <p>- Ayuda Permanente -</p>
+                    <p>- Seguimiento Continuo -</p>
+                    <p>- Control de Peso -</p>
+                    <p>- Horarios Flexibles -</p>
+                    <Link to='/contact' className='btn'>Comprar</Link>
 
                 </div>
                 <div className="card">
-                    <h3>-Suite-</h3>
+                    <h3>12 Meses de entrenamiento Presencial</h3>
                     <span className="bar"></span>
-                    <p className='btc'>1 BTC</p>
-                    <p>- 3 Days -</p>
-                    <p>- Views -</p>
-                    <p>- Featured -</p>
-                    <p>- High Intensity Training -</p>
-                    <Link to='/contact' className='btn'>Book</Link>
+                    <p className='btc'>$50.000</p>
+                    <p>- Corrección Postural -</p>
+                    <p>- Ayuda Permanente -</p>
+                    <p>- Seguimiento Continuo -</p>
+                    <p>- Control de Peso -</p>
+                    <p>- Horarios Flexibles -</p>
+                    <Link to='/contact' className='btn'>Comprar</Link>
 
                 </div>
                 <div className="card">
-                    <h3>-Executive-</h3>
+                    <h3>6 Meses de entrenamiento Online</h3>
                     <span className="bar"></span>
-                    <p className='btc'>1 BTC</p>
-                    <p>- 3 Days -</p>
-                    <p>- Views -</p>
-                    <p>- Featured -</p>
-                    <p>- High Intensity Training -</p>
-                    <Link to='/contact' className='btn'>Book</Link>
+                    <p className='btc'>$20.000</p>
+                    <p>- Corrección Postural -</p>
+                    <p>- Ayuda Permanente -</p>
+                    <p>- Seguimiento Continuo -</p>
+                    <p>- Control de Peso -</p>
+                    <p>- Horarios Flexibles -</p>
+                    <Link to='/contact' className='btn'>Comprar</Link>
+
+                </div>
+                <div className="card">
+                    <h3>6 Meses de entrenamiento Online</h3>
+                    <span className="bar"></span>
+                    <p className='btc'>$30.000</p>
+                    <p>- Corrección Postural -</p>
+                    <p>- Ayuda Permanente -</p>
+                    <p>- Seguimiento Continuo -</p>
+                    <p>- Control de Peso -</p>
+                    <p>- Horarios Flexibles -</p>
+                    <Link to='/contact' className='btn'>Comprar</Link>
 
                 </div>
             </div>

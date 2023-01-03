@@ -8,7 +8,7 @@ function Training(props) {
     return (
         <div>
             <Navbar/>
-            <HeroImage heading='TRAINING' text='Cardio & Weight Training.' />
+            <HeroImage heading='Entrenamientos' text='Clases personalizadas' />
             <TrainingSection />
             <Footer/>
         </div>

@@ -12,13 +12,13 @@ function Video(props) {
             </video>
             <div className='content'>
                 <h1>
-                    For a Better Life...
+                    Por una vida mejor...
                 </h1>
-                <p>Haifa's first crosfit gym.</p>
+                <p>entrenamientos personalizados</p>
             
             <div>
-                <Link to='/training' className='btn'>Training</Link>
-                <Link to='/contact' className='btn btn-light'>Launch</Link>
+                <Link to='/training' className='btn'>Entrenamientos</Link>
+                <Link to='/contact' className='btn btn-light'>Consultas</Link>
             </div>
             
         </div>

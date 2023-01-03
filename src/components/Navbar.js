@@ -22,16 +22,16 @@ window.addEventListener('scroll',changeColor);
        <Link to='/' ><img src={logo} alt="logo" width={'100%'} height={40} /></Link>
        <ul className={click ? 'nav-menu active' : 'nav-menu'}>
         <li>
-            <Link to="/">Home</Link>
+            <Link to="/">Inicio</Link>
         </li>
         <li>
-            <Link to="/pricing">Pricing</Link>
+            <Link to="/pricing">Precios</Link>
         </li>
         <li>
-            <Link to="/training">Training</Link>
+            <Link to="/training">Entrenamientos</Link>
         </li>
         <li>
-            <Link to="/contact">Contact</Link>
+            <Link to="/contact">Contactame</Link>
         </li>
 
        </ul>

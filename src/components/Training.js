@@ -9,9 +9,12 @@ function Training(props) {
     return (
         <div className='training'>
             <div className="left">
-                <h1>Training</h1>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat eius autem cupiditate dolorum eligendi, ullam voluptates magnam, velit tenetur quam perspiciatis natus delectus vitae dolor numquam adipisci beatae doloribus qui?</p>
-                <Link to='/contact'><button className="btn">Contact</button></Link>
+                <h1>Entrenamientos</h1>
+                <p>Sabemos que puedes lograrlo y lo harás.</p>
+                <p>Un Entrenador Personalizado es el partner que te prepara para aquello que parece imposible.</p>
+                <p>Con tu entrenador Personalizado creas un plan adaptado a tus necesidades y objetivos en conjunto, trabajarás en equipo para desbloquear los logros que buscas.</p>
+                <p>Te acompaña en cada paso, con pasión, profesionalismo y dedicación poniendo todo su conocimiento en ayudarte a lograr lo que buscas.</p>
+                <Link to='/contact'><button className="btn">Contactame</button></Link>
             </div>
             <div className="right">
                 <div className="img-container">

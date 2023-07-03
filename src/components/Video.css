@@ -1,49 +1,76 @@
-#video{
-    position:fixed;
-    width:100%;
+#video {
+    position: fixed;
+    width: 100%;
     height: 100%;
     object-fit: cover;
     z-index: -1;
 
 }
-.hero{
-    height:100vh;
-    width:100%;
+
+.image-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.background-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.image-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    /* Ajusta la opacidad del efecto nublado */
+}
+
+.hero {
+    height: 100vh;
+    width: 100%;
     object-fit: contain;
 }
-.hero .content{
+
+.hero .content {
     text-align: center;
-    position:absolute;
-    margin:auto;
-    width:100%;
-    height:100%;
-    top:40vh;
+    position: absolute;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    top: 40vh;
 
 }
 
-.hero .content h1{
+.hero .content h1 {
     font-size: 4rem;
-    color:#fff;
+    color: #fff;
 }
 
-.hero p{
+.hero p {
     font-size: 1.8rem;
     font-weight: 200;
     text-transform: uppercase;
     margin-bottom: 1.6rem;
-    color:#fff;
+    color: #fff;
 }
 
-.hero .btn{
-    margin:1rem .2rem;
+.hero .btn {
+    margin: 1rem .2rem;
 }
+
 @media screen and (max-width:640px) {
-    .content h1{
+    .content h1 {
         font-size: 3rem;
     }
-    .content p{
-       font-size: 1.4rem;
-       margin-bottom: 1.6rem;
+
+    .content p {
+        font-size: 1.4rem;
+        margin-bottom: 1.6rem;
     }
-    
+
 }

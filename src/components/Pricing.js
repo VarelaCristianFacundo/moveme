@@ -20,7 +20,7 @@ function Pricing(props) {
           <p>✔ Seguimiento por whastapp </p>
           <p>✔ Ingreso a grupo privado </p>
           <a
-            href="https://api.whatsapp.com/send?phone=541136710228&text=%C2%A1Hola%20Martin%20Ercolano!%20Quiero%20comprar%20el%20plan%20RUTINA%20PERSONALIZADA%20"
+            href="https://api.whatsapp.com/send?phone=541136710228&text=%C2%A1Hola%20Move%20Me!%20Quiero%20comprar%20el%20plan%20RUTINA%20PERSONALIZADA%20"
             className="btn"
           >
             Quiero Empezar
@@ -38,7 +38,7 @@ function Pricing(props) {
           <p>✔ Videos demonstrando los ejercicios </p>
           <p>✔ Grupo whatsapp motivación y coaching </p>
           <a
-            href="https://api.whatsapp.com/send?phone=541136710228&text=%C2%A1Hola%20Martin%20Ercolano!%20Quiero%20comprar%20el%20plan%20PROGRAMA%20VIP%20"
+            href="https://api.whatsapp.com/send?phone=541136710228&text=%C2%A1Hola%20Move%20Me!%20Quiero%20comprar%20el%20plan%20PROGRAMA%20VIP%20"
             className="btn"
           >
             Quiero Empezar
@@ -57,7 +57,7 @@ function Pricing(props) {
           <p>✔ Grupo whatsapp motivación y coaching </p>
           <p>✔ Video llamada privada de coaching 1 a 1 </p>
           <a
-            href="https://api.whatsapp.com/send?phone=541136710228&text=%C2%A1Hola%20Martin%20Ercolano!%20Quiero%20comprar%20el%20plan%20ELITE%20COACHING%20"
+            href="https://api.whatsapp.com/send?phone=541136710228&text=%C2%A1Hola%20Move%20Me!%20Quiero%20comprar%20el%20plan%20ELITE%20COACHING%20"
             className="btn"
           >
             Quiero Empezar

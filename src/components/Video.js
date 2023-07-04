@@ -20,7 +20,7 @@ function Video(props) {
         <h1>Por una vida mejor...</h1>
         <p>entrenamientos personalizados</p>
 
-        <div>
+        <div className="buttons">
           <Link to="/training" className="btn">
             Entrenamientos
           </Link>

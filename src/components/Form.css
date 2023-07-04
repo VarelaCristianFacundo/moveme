@@ -30,3 +30,21 @@ textarea {
     color: white;
     text-align: center;
 }
+
+@media screen and (max-width:420px) {
+    .form {
+        display: flex;
+        justify-content: center;
+        width: 178%;
+    }
+
+    .form input,
+    textarea {
+        text-align: center;
+    }
+
+    .btn {
+        width: 100%;
+        margin: 0;
+    }
+}

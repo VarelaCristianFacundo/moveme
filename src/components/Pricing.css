@@ -5,13 +5,13 @@
 }
 
 .card-container {
-    display: flex !important;
+    display: flex;
     justify-content: center;
     margin: auto;
     display: grid;
     max-width: 70%;
     gap: 40px;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
 
 }
 
@@ -63,12 +63,29 @@
     transform: translateX(-50%);
 }
 
+
 @media screen and (max-width:880px) {
     .card-container {
         max-width: 90%;
         margin: auto;
         grid-template-columns: 1fr;
 
+    }
+
+}
+
+@media screen and (max-width:420px) {
+    .card-container {
+        display: flex !important;
+        flex-direction: column !important;
+    }
+
+    .hero-img {
+        width: 132%;
+    }
+
+    .pricing {
+        width: 132%;
     }
 
 }

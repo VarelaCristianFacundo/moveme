@@ -74,3 +74,44 @@
     }
 
 }
+
+
+@media screen and (max-width:420px) {
+    .image-container::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 132%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.6);
+        /* Ajusta la opacidad del efecto nublado */
+    }
+
+    .content {
+        width: 132% !important;
+    }
+
+    h1 {
+        font-size: 60px !important;
+        text-align: center
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .btn {
+        width: 15rem;
+        margin: 10px;
+    }
+
+
+    .footer {
+        width: 132% !important;
+    }
+
+}

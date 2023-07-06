@@ -88,4 +88,8 @@
         width: 100%;
     }
 
+    .card .btn {
+        width: 70%;
+    }
+
 }

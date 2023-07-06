@@ -35,7 +35,7 @@ textarea {
     .form {
         display: flex;
         justify-content: center;
-        width: 178%;
+        width: 100%;
     }
 
     .form input,
@@ -44,7 +44,7 @@ textarea {
     }
 
     .btn {
-        width: 100%;
+        width: 70%;
         margin: 0;
     }
 }

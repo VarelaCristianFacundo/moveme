@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Video.css";
-import gymVideo from "../assets/video.mp4";
+// import gymVideo from "../assets/video.mp4";
 
 function Video(props) {
   return (
@@ -11,6 +11,7 @@ function Video(props) {
           src="https://lirp.cdn-website.com/md/pexels/dms3rep/multi/opt/pexels-photo-7031706-1920w.jpeg"
           className="background-image"
           id="video"
+          alt="moveme"
         ></img>
       </div>
       {/* <video autoPlay loop muted id="video">

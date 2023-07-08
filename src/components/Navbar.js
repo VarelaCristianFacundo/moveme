@@ -24,7 +24,6 @@ function Navbar(props) {
           src={logo}
           className="logo"
           alt="logo"
-          width="7%"
           padding="1rem"
           height="auto"
         />
